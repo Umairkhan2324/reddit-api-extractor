@@ -99,6 +99,80 @@ python app.py
 
 When prompted, enter the name of a subreddit (or press Enter to default to "python"). The script will then display the title, author, and upvote count for the 5 latest posts in that subreddit.
 
+## Expected Output
+
+The script will output the title, author, and upvote count for each of the 5 latest posts in the specified subreddit. For example:
+
+```
+python app.py
+Using credentials:
+Client ID: f2P3Z1J0mqV0vnua73qHcw
+User Agent: umair-khan by /u/AdWeird9256
+Username: AdWeird9256
+Password: ***********
+Trying with modified user agent: script:reddit-post-viewer:v1.0 (by /u/AdWeird9256)
+Attempting authentication...
+Authenticated as: AdWeird9256
+Enter the subreddit name (default: python): NUST
+
+Fetching 5 latest posts from r/NUST...
+
+Title   : NET 4
+Author  : userdead250307_
+Upvotes : 1
+----------------------------------------
+Title   : I forgot my original Photo id document in another city
+Author  : Current_Judge6621
+Upvotes : 1
+----------------------------------------
+Title   : 11th april business and social science paper      
+Author  : Similar_Relation_891
+Upvotes : 1
+----------------------------------------
+Title   : NUSTTT
+Author  : Excellent-Agent6913
+Upvotes : 2
+----------------------------------------
+Title   : A question
+Author  : StraightAd695
+Upvotes : 2
+----------------------------------------
+
+python app.py
+Using credentials:
+Client ID: f2P3Z1J0mqV0vnua73qHcw
+User Agent: umair-khan by /u/AdWeird9256
+Username: AdWeird9256
+Password: ***********
+Trying with modified user agent: script:reddit-post-viewer:v1.0 (by /u/AdWeird9256)
+Attempting authentication...
+Authenticated as: AdWeird9256
+Enter the subreddit name (default: python): meme
+
+Fetching 5 latest posts from r/meme...
+
+Title   : The Trade Federation would never commit such an act!
+Author  : s1n0d3utscht3k
+Upvotes : 4
+----------------------------------------
+Title   : ✔️
+Author  : B0redBruise
+Upvotes : 7
+----------------------------------------
+Title   : Less work, better results: Finland’s education formula
+Author  : Present-Party4402
+Upvotes : 2
+----------------------------------------
+Title   : It's that easy guys
+Author  : Neoslayer
+Upvotes : 0
+----------------------------------------
+Title   : Poor or rich, we all do that
+Author  : hema3846
+Upvotes : 189
+----------------------------------------
+```
+
 ## Contributing
 
 Contributions are welcome. Please fork the repository and submit a pull request for any improvements or bug fixes.
